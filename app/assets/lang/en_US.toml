@@ -10,7 +10,7 @@ mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
 newsButton = "NEWS"
 launchButton = "PLAY"
-launchButtonPlaceholder = "&#8226; No Server Selected"
+launchButtonPlaceholder = "&#8226; No Client Selected"
 launchDetails = "Please wait.."
 newsNavigationStatus = "{currentPage} of {totalPages}"
 newsErrorLoadSpan = "Checking for News.."
@@ -41,7 +41,7 @@ loginWithMojang = "Login with Mojang"
 cancelButton = "Cancel"
 
 [ejs.overlay]
-serverSelectHeader = "Available Servers"
+serverSelectHeader = "Available Clients"
 serverSelectConfirm = "Select"
 serverSelectCancel = "Cancel"
 accountSelectHeader = "Select an Account"
@@ -162,7 +162,7 @@ okay = "Okay"
 noAccountSelected = "No Account Selected"
 
 [js.landing.selectedServer]
-noSelection = "No Server Selected"
+noSelection = "No Client Selected"
 loading = "Loading.."
 
 [js.landing.serverStatus]
@@ -180,7 +180,7 @@ javaDownloadPrepare = "Preparing Java Download.."
 javaDownloadFailureTitle = "Error During Java Download"
 javaDownloadFailureText = "See console (CTRL + Shift + i) for more details."
 javaRequired = "Java is Required<br>to Launch"
-javaRequiredMessage = 'A valid x64 installation of Java {major} is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.'
+javaRequiredMessage = 'A valid x64 installation of Java {major} is required to launch.<br><br>Please refer to our <a href="https://github.com/ironveilrp/launcher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.'
 javaRequiredDismiss = "I Understand"
 javaRequiredCancel = "Go Back"
 
@@ -191,7 +191,7 @@ extractingJava = "Extracting Java"
 javaInstalled = "Java Installed!"
 
 [js.landing.dlAsync]
-loadingServerInfo = "Loading server information.."
+loadingServerInfo = "Loading client information.."
 fatalError = "Fatal Error"
 unableToLoadDistributionIndex = "Could not load a copy of the distribution index. See the console (CTRL + Shift + i) for more details."
 pleaseWait = "Please wait.."
@@ -203,17 +203,17 @@ downloadingFiles = "Downloading files.."
 errorDuringFileDownloadTitle = "Error During File Download"
 preparingToLaunch = "Preparing to launch.."
 launchingGame = "Launching game.."
-launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
-doneEnjoyServer = "Done. Enjoy the server!"
+launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/ironveilrp/launcher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
+doneEnjoyServer = "Done. Enjoy the client!"
 checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more details."
 
 [js.landing.news]
 checking = "Checking for News"
 
 [js.landing.discord]
-loading = "Loading game.."
-joining = "Sailing to Westeros!"
-joined = "Exploring the Realm!"
+loading = "Loading..."
+joining = "Joining server..."
+joined = "Playing Multiplayer"
 
 [js.overlay]
 dismiss = "Dismiss"
@@ -257,7 +257,7 @@ failedToggleTitle = "Failed to Toggle<br>One or More Drop-in Mods"
 okButton = "Okay"
 
 [js.settings.serverListing]
-mainServer = "Main Server"
+mainServer = "Main Client"
 
 [js.settings.java]
 selectedJava = "Selected: Java {version} ({vendor})"
@@ -286,7 +286,7 @@ okButton = "OK"
 
 [js.uibinder.startup]
 fatalErrorTitle = "Fatal Error: Unable to Load Distribution Index"
-fatalErrorMessage = "A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application."
+fatalErrorMessage = "A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest client information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application."
 closeButton = "Close"
 
 [js.uibinder.validateAccount]

@@ -1,8 +1,8 @@
-appId: 'helioslauncher'
-productName: 'Helios Launcher'
+appId: 'ironveilrplauncher'
+productName: 'Ironveil RP Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi'
+copyright: 'Ironveil RP Launcher is based on: HeliosLauncher - Copyright © 2018-2024 Daniel Scalzi'
 
 asar: true
 compression: 'maximum'
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Daniel Scalzi'
-  vendor: 'Daniel Scalzi'
+  maintainer: 'Ironveil RP Development Team'
+  vendor: 'Ironveil RP Development Team'
   synopsis: 'Modded Minecraft Launcher'
-  description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
+  description: 'Modified version of HeliosLauncher fit for the Ironveil Roleplay server (and other RP servers alike)!'
   category: 'Game'
 
 

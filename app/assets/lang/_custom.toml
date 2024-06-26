@@ -1,20 +1,33 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "Helios Launcher"
+title = "Ironveil RP Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaGitHubURL = "https://github.com/ironveilrp/launcher"
 mediaTwitterURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaDiscordURL = "https://discord.gg/gQ8QpJqmK9"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/ironveilrp/launcher"
+supportLink = "https://github.com/ironveilrp/launcher/issues"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
-welcomeDescription = "Our mission is to recreate the universe imagined by author George RR Martin in his fantasy series, A Song of Ice and Fire.  Through the collaborative effort of thousands of community members, we have sought to create Westeros as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from Dorne to Castle Black, and if you aren’t afraid, beyond the Wall itself, but best not delay.  As the words of House Stark ominously warn: Winter is Coming."
-welcomeDescCTA = "You are just a few clicks away from Westeros."
+welcomeHeader = "Welcome to Ironveil RP"
+welcomeDescription = "I met a traveller from an antique land,<br>
+Who said—“Two vast and trunkless legs of stone<br>
+Stand in the desert. . . . Near them, on the sand,<br>
+Half sunk a shattered visage lies, whose frown,<br>
+And wrinkled lip, and sneer of cold command,<br>
+Tell that its sculptor well those passions read<br>
+Which yet survive, stamped on these lifeless things,<br>
+The hand that mocked them, and the heart that fed;<br>
+And on the pedestal, these words appear:<br>
+My name is Ozymandias, King of Kings;<br>
+Look on my Works, ye Mighty, and despair!<br>
+Nothing beside remains. Round the decay<br>
+Of that colossal Wreck, boundless and bare<br>
+The lone and level sands stretch far away.”"
+welcomeDescCTA = "Click below to log into your Minecraft account"

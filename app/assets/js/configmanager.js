@@ -42,6 +42,7 @@ exports.setDataDirectory = function(dataDirectory){
 const configPath = path.join(exports.getLauncherDirectory(), 'config.json')
 const configPathLEGACY = path.join(dataPath, 'config.json')
 const firstLaunch = !fs.existsSync(configPath) && !fs.existsSync(configPathLEGACY)
+// const firstLaunch = true
 
 exports.getAbsoluteMinRAM = function(ram){
     if(ram?.minimum != null) {

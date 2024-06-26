@@ -8,6 +8,11 @@
  ******************************************************************************/
 
 @font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel-VariableFont_wght.ttf');
+}
+
+@font-face {
     font-family: 'Avenir Book';
     src: url('../fonts/Avenir-Book.ttf');
 }
@@ -46,10 +51,10 @@ body, button {
     color: white;
 }
 
-/*body {
+body {
     background: url('./../images/backgrounds/0.jpg') no-repeat center center fixed;
     background-size: cover;
-}*/
+}
 
 /*******************************************************************************
  *                                                                             *
@@ -2489,7 +2494,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    width: 50%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2855,12 +2860,23 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 70px;
+    height: 96px;
     width: auto;
     position: relative;
-    border: 2px solid white;
-    box-sizing: border-box;
-    border-radius: 50%;
+    /* border: 2px solid white; */
+    /* box-sizing: border-box; */
+    /* border-radius: 50%; */
+}
+
+#image_seal_title {
+    display: flex;
+    width: 400px;
+    align-items: center;
+
+    h2 {
+        font-family: 'Cinzel', sans-serif;
+        text-shadow: 0px 0px 20px black;
+    }
 }
 
 /* Logo container styles. */
@@ -2881,12 +2897,12 @@ input:checked + .toggleSwitchSlider:before {
     cursor: pointer;
     position: absolute;
     content: '';
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    left: 0%;
+    height: 75%;
+    width: 75%;
+    top: 20px;
+    left: 21px;
     border-radius: 50%;
-    box-shadow: 0 0 15px #43c628;
+    box-shadow: 0 0 15px #5f65d4;
     animation: glow-grow 4s ease-out infinite;
     background: rgba(0, 0, 0, 0.15);
 }
@@ -2909,7 +2925,7 @@ input:checked + .toggleSwitchSlider:before {
     position: absolute;
     z-index: 1;
     top: 115%;
-    left: -17.5px;
+    left: -4px;
     font-family: 'Avenir Medium';
     font-size: 12px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
@@ -2917,7 +2933,7 @@ input:checked + .toggleSwitchSlider:before {
 #updateAvailableTooltip::after {
     content: " ";
     position: absolute;
-    left: 50%;
+    left: 0%;
     bottom: 100%;
     margin-left: -5px;
     border-width: 5px;
@@ -3199,6 +3215,11 @@ input:checked + .toggleSwitchSlider:before {
 /* * *
 * Landing View (Bottom Styles) | Left Content
 * * */
+
+#server_address {
+    display: inline-flex;
+    width: 125px;
+}
 
 /* Maintains maximum width on the status bar. */
 #server_status_wrapper {
