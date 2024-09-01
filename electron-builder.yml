@@ -1,4 +1,4 @@
-appId: 'ironveilrplauncher'
+appId: 'com.ironveilrp.launcher'
 productName: 'Ironveil RP Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
@@ -38,12 +38,15 @@ mac:
 
 # Linux Configuration
 linux: 
-  target: 'AppImage'
+  target: 'flatpak'
   maintainer: 'Ironveil RP Development Team'
   vendor: 'Ironveil RP Development Team'
   synopsis: 'Modded Minecraft Launcher'
   description: 'Modified version of HeliosLauncher fit for the Ironveil Roleplay server (and other RP servers alike)!'
   category: 'Game'
+
+flatpak:
+  runtimeVersion: '23.08'
 
 
 directories:
